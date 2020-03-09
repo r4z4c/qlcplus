@@ -8,6 +8,7 @@ form {
 
 .vcbutton-wrapper {
  position: absolute;
+ display: inline-block;
 }
 
 .vcbutton {
