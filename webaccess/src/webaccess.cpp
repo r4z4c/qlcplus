@@ -845,8 +845,8 @@ QString WebAccess::getFrameHTML(VCFrame *frame)
 
     QString str = "<div class=\"vcframe\" id=\"fr" + QString::number(frame->id()) + "\" "
           "style=\"left: " + QString::number(frame->x()) +
-          "px; top: " + QString::number(frame->y()) + "px; width: " + QString::number(w) +
-          "px; height: " + QString::number(h) + "px; "
+          "px; top: " + QString::number(frame->y()) + "px; width: " + QString::number(w-2) +
+          "px; height: " + QString::number(h-2) + "px; "
           "background-color: " + frame->backgroundColor().name() + "; "
           "border: 1px solid " + border.name() + ";\">\n";
 
@@ -897,8 +897,8 @@ QString WebAccess::getSoloFrameHTML(VCSoloFrame *frame)
 
     QString str = "<div class=\"vcframe\" id=\"fr" + QString::number(frame->id()) + "\" "
           "style=\"left: " + QString::number(frame->x()) +
-          "px; top: " + QString::number(frame->y()) + "px; width: " + QString::number(w) +
-          "px; height: " + QString::number(h) + "px; "
+          "px; top: " + QString::number(frame->y()) + "px; width: " + QString::number(w-2) +
+          "px; height: " + QString::number(h-2) + "px; "
           "background-color: " + frame->backgroundColor().name() + "; "
           "border: 1px solid " + border.name() + ";\">\n";
 
@@ -965,11 +965,11 @@ QString WebAccess::getButtonHTML(VCButton *btn)
     if (btn->state() == VCButton::Active)
         onCSS = "border: 3px solid #00E600;";
     else if (btn->state() == VCButton::Monitoring)
-        onCSS = "border: 3px solid #FFAA00;";
+        onCSS = "border: 3px solid #DDDDDD;";
 
     QString str = "<div class=\"vcbutton-wrapper\" style=\""
-            "left: " + QString::number(btn->x())-6 + "px; "
-            "top: " + QString::number(btn->y())-6 + "px;\">\n";
+            "left: " + QString::number(btn->x()) + "px; "
+            "top: " + QString::number(btn->y()) + "px;\">\n";
     str +=  "<a class=\"vcbutton\" id=\"" + QString::number(btn->id()) + "\" "
             "href=\"javascript:void(0);\" "
             "onmousedown=\"buttonPress(" + QString::number(btn->id()) + ");\" "
@@ -1006,8 +1006,8 @@ QString WebAccess::getSliderHTML(VCSlider *slider)
     QString str = "<div class=\"vcslider\" style=\""
             "left: " + QString::number(slider->x()) + "px; "
             "top: " + QString::number(slider->y()) + "px; "
-            "width: " + QString::number(slider->width()) + "px; "
-            "height: " + QString::number(slider->height()) + "px; "
+            "width: " + QString::number(slider->width()-2) + "px; "
+            "height: " + QString::number(slider->height()-2) + "px; "
             "background-color: " + slider->backgroundColor().name() + ";\">\n";
 
     str += "<div id=\"slv" + slID + "\" "
@@ -1046,8 +1046,8 @@ QString WebAccess::getLabelHTML(VCLabel *label)
             "left: " + QString::number(label->x()) + "px; "
             "top: " + QString::number(label->y()) + "px;\">\n";
     str +=  "<div class=\"vclabel\" style=\""
-            "width: " + QString::number(label->width()) + "px; "
-            "height: " + QString::number(label->height()) + "px; "
+            "width: " + QString::number(label->width()-2) + "px; "
+            "height: " + QString::number(label->height()-2) + "px; "
             "color: " + label->foregroundColor().name() + "; "
             "background-color: " + label->backgroundColor().name() + "\">" +
             label->caption() + "</div>\n</div>\n";
