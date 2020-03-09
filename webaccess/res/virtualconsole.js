@@ -36,7 +36,7 @@ function wsSetButtonState(id, state) {
   obj.style.border = "3px solid #FFAA00";
  } else {
   obj.value = "0";
-  obj.style.border = "3px solid #A0A0A0";
+  obj.style.border = "3px solid #DDDDDD";
  }
 }
 
