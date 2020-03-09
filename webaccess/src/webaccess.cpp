@@ -968,15 +968,15 @@ QString WebAccess::getButtonHTML(VCButton *btn)
         onCSS = "border: 3px solid #FFAA00;";
 
     QString str = "<div class=\"vcbutton-wrapper\" style=\""
-            "left: " + QString::number(btn->x()) + "px; "
-            "top: " + QString::number(btn->y()) + "px;\">\n";
+            "left: " + QString::number(btn->x())-6 + "px; "
+            "top: " + QString::number(btn->y())-6 + "px;\">\n";
     str +=  "<a class=\"vcbutton\" id=\"" + QString::number(btn->id()) + "\" "
             "href=\"javascript:void(0);\" "
             "onmousedown=\"buttonPress(" + QString::number(btn->id()) + ");\" "
             "onmouseup=\"buttonRelease(" + QString::number(btn->id()) + ");\" "
             "style=\""
-            "width: " + QString::number(btn->width()) + "px; "
-            "height: " + QString::number(btn->height()) + "px; "
+            "width: " + QString::number(btn->width()-6) + "px; "
+            "height: " + QString::number(btn->height()-6) + "px; "
             "color: " + btn->foregroundColor().name() + "; "
             "background-color: " + btn->backgroundColor().name() + "; " + onCSS + "\">" +
             btn->caption() + "</a>\n</div>\n";
