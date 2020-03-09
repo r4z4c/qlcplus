@@ -30,7 +30,7 @@ function wsSetButtonState(id, state) {
  var obj = document.getElementById(id);
  if (state === "255") {
   obj.value = "255";
-  obj.style.border = "3px solid #00E600";
+  obj.style.border = "3px solid #02e800 /*#00E600"*/;
  } else if (state === "127") {
   obj.value = "127";
   obj.style.border = "3px solid #FFAA00";
