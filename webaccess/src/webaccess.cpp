@@ -1356,12 +1356,12 @@ QString WebAccess::getVCHTML()
             "</form>\n"
 
             "<div class=\"controlBar\">\n"
-            "<a class=\"button button-blue\" href=\"javascript:document.getElementById('loadTrigger').click();\">\n"
-            "<span>" + tr("Load project") + "</span></a>\n"
+            /*"<a class=\"button button-blue\" href=\"javascript:document.getElementById('loadTrigger').click();\">\n"
+            "<span>" + tr("Load project") + "</span></a>\n"*/
 
             "<a class=\"button button-blue\" href=\"/simpleDesk\"><span>" + tr("Simple Desk") + "</span></a>\n"
 
-            "<a class=\"button button-blue\" href=\"/config\"><span>" + tr("Configuration") + "</span></a>\n"
+            //"<a class=\"button button-blue\" href=\"/config\"><span>" + tr("Configuration") + "</span></a>\n"
 
             "<div class=\"swInfo\">" + QString(APPNAME) + " " + QString(APPVERSION) + "</div>"
             "</div>\n"
