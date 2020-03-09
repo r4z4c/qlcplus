@@ -13,7 +13,6 @@ form {
 .vcbutton {
  display: table-cell;
  border: 3px solid #A0A0A0;
- border-radius: 4px;
  font-family: arial, verdana, sans-serif;
  text-decoration: none;
  text-align:center;
@@ -23,7 +22,6 @@ form {
 .vccuelist {
  position: absolute;
  border: 1px solid #777777;
- border-radius: 3px;
 }
 
 .vccuelistButton {
@@ -35,7 +33,6 @@ form {
  background: -o-linear-gradient(top, #F6F6F6 0%, #DFDDDC 100%);
  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #F6F6F6), color-stop(1, #DFDDDC));
  background: -webkit-linear-gradient(top, #F6F6F6 0%, #DFDDDC 100%);
- border-radius: 3px;
  border: 1px solid #808080;
  margin: 2px 2px 0 0;
  padding: 1px;
@@ -77,7 +74,6 @@ table.hovertable td {
 
 .vcframe {
  position: absolute;
- border-radius: 4px;
  margin: 0 0 0 0;
  overflow: hidden;
 }
@@ -89,7 +85,6 @@ table.hovertable td {
  background: -o-linear-gradient(top, #666666 0%, #000000 100%);
  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #666666), color-stop(1, #000000));
  background: -webkit-linear-gradient(top, #666666 0%, #000000 100%);
- border-radius: 3px;
  margin: 2px 2px 0 36px;
  padding: 0 0 0 3px;
  height: 32px;
@@ -106,7 +101,6 @@ table.hovertable td {
  display: inline-block;
  vertical-align: top;
  background: #E0DFDF;
- border-radius: 3px;
  border: 1px solid #000;
  margin: 2px 0 0 2px;
  padding: 1px;
@@ -119,7 +113,6 @@ table.hovertable td {
 .vcframePageLabel {
  display: inline-block;
  background: #000000;
- border-radius: 3px;
  margin: 2px 0 0 0;
  height: 32px;
  width: 100px;
@@ -144,7 +137,6 @@ table.hovertable td {
  background: -o-linear-gradient(top, #BC0A0A 0%, #370303 100%);
  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #BC0A0A), color-stop(1, #370303));
  background: -webkit-linear-gradient(top, #BC0A0A 0%, #370303 100%);
- border-radius: 3px;
  margin: 2px 2px 0 36px;
  padding: 0 0 0 3px;
  height: 32px;
@@ -155,7 +147,6 @@ table.hovertable td {
 .vclabel {
  display: table-cell;
  border: 1px solid #A0A0A0;
- border-radius: 3px;
  font-family: arial, verdana, sans-serif;
  text-align:center;
  vertical-align: middle;
@@ -164,7 +155,6 @@ table.hovertable td {
 .vcslider {
  position: absolute;
  border: 1px solid #777777;
- border-radius: 3px;
 }
 
 .vcslLabel {
@@ -191,7 +181,6 @@ input[type="range"].vVertical {
 input[type="range"]::-webkit-slider-thumb {
  -webkit-appearance: none;
  background-color: #999999;
- border-radius: 4px;
  border: 1px solid #5c5c5c;
  width: 20px;
  height: 36px;
@@ -210,7 +199,6 @@ input[type="range"]::-webkit-slider-thumb {
  background: -o-linear-gradient(top, #345D27 0%, #0E1A0A 100%);
  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #345D27), color-stop(1, #0E1A0A));
  background: -webkit-linear-gradient(top, #345D27 0%, #0E1A0A 100%);
- border-radius: 3px;
  height: 32px;
  margin: 2px;
  padding: 0 0 0 3px;
@@ -222,7 +210,6 @@ input[type="range"]::-webkit-slider-thumb {
 .vcatbutton {
  display: table-cell;
  border: 3px solid #A0A0A0;
- border-radius: 4px;
  font-family: arial, verdana, sans-serif;
  text-decoration: none;
  text-align:center;
@@ -232,7 +219,6 @@ input[type="range"]::-webkit-slider-thumb {
 .vcwidget {
  position: absolute;
  border: 1px solid #777777;
- border-radius: 3px;
  font-family: arial, verdana, sans-serif;
  font-size: 18px/1.0em;
 }
