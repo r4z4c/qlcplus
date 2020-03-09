@@ -1363,7 +1363,7 @@ QString WebAccess::getVCHTML()
 
             //"<a class=\"button button-blue\" href=\"/config\"><span>" + tr("Configuration") + "</span></a>\n"
 
-            "<div class=\"swInfo\">" + QString(APPNAME) + " " + QString(APPVERSION) + "</div>"
+            //"<div class=\"swInfo\">" + QString(APPNAME) + " " + QString(APPVERSION) + "</div>"
             "</div>\n"
             "<div style=\"position: relative; "
             "width: " + QString::number(mfSize.width()) +
