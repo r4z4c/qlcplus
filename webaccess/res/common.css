@@ -8,10 +8,10 @@
 
 .button
 {
- height: 29px;
+ height: 31px;
  margin-left: 5px;
  margin-top: 2px;
- padding-top: 3px;
+ padding-top: px;
  text-decoration: none;
  font: bold 25px/1.2em 'Trebuchet MS',Arial, Helvetica;
  display: inline-block;
