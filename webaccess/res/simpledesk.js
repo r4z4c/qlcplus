@@ -44,6 +44,7 @@ window.onload = function() {
       if (msgParams[1] === "getChannelsValues") {
         drawPage(ev.data);
       }
+      drawPage(ev.data);
     }
    };
 };
