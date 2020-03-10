@@ -9,6 +9,7 @@ form {
 .vcbutton-wrapper {
  position: absolute;
  display: inline-block;
+ border-radius: 2px;
 }
 
 .vcbutton {
