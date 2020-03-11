@@ -40,12 +40,12 @@ window.onload = function() {
    websocket.onmessage = function(ev) {
     //alert(ev.data);
     var msgParams = ev.data.split("|");
-    if (msgParams[0] === "QLC+API") {
-      /*if (msgParams[1] === "getChannelsValues") {
+    drawPage(ev.data);
+    /*if (msgParams[0] === "QLC+API") {
+      if (msgParams[1] === "getChannelsValues") {
         drawPage(ev.data);
-      }*/
-      drawPage(ev.data);
-    }
+      }
+    }*/
    };
 };
 
