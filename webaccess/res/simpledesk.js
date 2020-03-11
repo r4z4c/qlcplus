@@ -39,7 +39,7 @@ window.onload = function() {
    };
    websocket.onmessage = function(ev) {
     //alert(ev.data);
-    alert("" + msgParams)
+    alert(" " + msgParams[0])
     var msgParams = ev.data.split("|");
     drawPage(ev.data);
     /*if (msgParams[0] === "QLC+API") {
