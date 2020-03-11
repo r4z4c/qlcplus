@@ -41,9 +41,10 @@ window.onload = function() {
     //alert(ev.data);
     var msgParams = ev.data.split("|");
     if (msgParams[0] === "QLC+API") {
-      if (msgParams[1] === "getChannelsValues") {
+      /*if (msgParams[1] === "getChannelsValues") {
         drawPage(ev.data);
-      }
+      }*/
+      drawPage(ev.data);
     }
    };
 };
